@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Logs": [
+    {
+      "Date": "2018-05-25T18:30:00.000Z",
+      "Catagory": "CRIME",
+      "logs": "The \"Late Show\" host takes on Michael Cohen and his \"taxi king\" business partner.",
+      "id": 1
+    },
+    {
+      "Date": "2018-05-26T00:00:00.000Z",
+      "Catagory": "ENTERTAINMENT",
+      "logs": "The actor gives Dems an ass-kicking for not fighting hard enough against Donald Trump.",
+      "id": 2
+    },
+    {
+      "Date": "2018-05-24T18:30:00.000Z",
+      "Catagory": "POLITICS",
+      "logs": "Roger Stone Pressed For Damaging Emails About Hillary Clinton From WikiLeaks: Report\", \"authors\": \"Mary Papenfuss\", \"link\": \"https://www.huffingtonpost.com/entry/roger-stone-damaging-clinton-emails-wikileaks_us_5b073dc7e4b0802d69c979d7\", \"short_description\": \"Stone's contact with Julian Assange reportedly told him he couldn't ask WikiLeaks favors \\\"every other day.",
+      "id": 3
+    },
+    {
+      "Date": "2018-05-25T00:00:00.000Z",
+      "Catagory": "WEIRD NEWS",
+      "logs": "A Bag Of Wet Socks Is Apparently Living In The White House Press Briefing Room\", \"authors\": \"Jenna Amatulli\", \"link\": \"https://www.huffingtonpost.com/entry/wet-socks-bag-white-house-press-room_us_5b080ceae4b0568a880aaad3\", \"short_description\": \"\\\"The formerly wet bag of socks... has become crusty,\\\" tweeted a reporter who thrice spotted the socks.",
+      "id": 4
+    },
+    {
+      "Date": "2018-05-24T00:00:00.000Z",
+      "Catagory": "SPORTS",
+      "logs": "Jets Chairman Christopher Johnson Won't Fine Players For Anthem Protests\", \"authors\": \"Ron Dicker\", \"link\": \"https://www.huffingtonpost.com/entry/jets-christopher-johnson-wont-fine-players-for-anthem-protests_us_5b069e29e4b05f0fc8453d6f\", \"short_description\": \"\\u201cI never want to put restrictions on the speech of our players.",
+      "id": 5
+    },
+    {
+      "Date": "2024-04-11T18:30:00.000Z",
+      "Catagory": "sample_web_logs",
+      "logs": "143.33.75.200 - - [2018-08-01T11:15:34.866Z] \"GET /security-analytics HTTP/1.1\" 200 70 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\"",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<div mat-dialog-title>
+    <h1>s</h1>
+</div>
+<form [formGroup]="logForm" (ngSubmit)="onFormSubmit()">
+<div mat-dialog-content>
+    <div class="row">
+        <mat-form-field appearance="outline" >
+            <mat-label>Choose a date</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="Date">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Catagory</mat-label>
+            <input matInput type="text" placeholder="enter Catagory" formControlName="Catagory" >
+          </mat-form-field>
+    </div>
+    <div class="row">
+        <mat-form-field  appearance="outline">
+            <mat-label>logs</mat-label>
+            <textarea matInput formControlName="logs"></textarea>
+          </mat-form-field>
+    </div>
+</div>
+<div mat-dialog-action class="action">
+    <button mat-raised-button class="button">Cancle</button>
+    <button mat-raised-button class="button" color="primary" type="submit">Save</button>
+</div>
+</form>

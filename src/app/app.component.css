@@ -1,0 +1,17 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.main-body{
+  max-width: 1248px;
+  mat-form-field{
+    width: 90%;
+    padding-left: 50px;
+    margin-top: 15px;
+  }
+}
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+  padding: 15px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
