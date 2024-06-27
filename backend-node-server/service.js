@@ -8,7 +8,10 @@ const port = 3001;
 app.use(cors());
 app.use(express.json());
 
-const client = new Client({ node: "http://localhost:9200" });
+const client = new Client({
+  node: "http://localhost:9200",
+  node: "http:// 10.228.12.118:9200",
+});
 
 // client
 //   .ping(
