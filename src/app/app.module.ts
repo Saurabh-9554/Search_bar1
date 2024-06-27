@@ -18,6 +18,10 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatTableModule} from '@angular/material/table';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { LogsService } from './services/logs.service';
+
+
+
 
 
 @NgModule({
@@ -41,9 +45,9 @@ import { MatSortModule } from '@angular/material/sort';
     HttpClientModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
   ],
-  providers: [],
+  providers: [LogsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

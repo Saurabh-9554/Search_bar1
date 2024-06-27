@@ -15,3 +15,31 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
+
+.table-container {
+  margin: 20px;
+}
+
+mat-paginator {
+  margin-top: 20px;
+}
+.scrollable-div {
+  overflow-y: auto; /* or auto depending on your design */
+}
+.tap-highlight {
+  -webkit-tap-highlight-color: transparent; /* Use cautiously */
+}
+
+.table-container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+table {
+  width: 100%; /* Ensure the table takes the full width */
+}

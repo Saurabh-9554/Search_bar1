@@ -18,40 +18,76 @@
   },
   "Logs": [
     {
-      "Date": "2018-05-25T18:30:00.000Z",
-      "Catagory": "CRIME",
-      "logs": "The \"Late Show\" host takes on Michael Cohen and his \"taxi king\" business partner.",
+      "Date": "2024-04-22T18:30:00.000Z",
+      "Catagory": "sample_web_logs",
+      "logs": "49.213.192.103 - - [2018-08-28T06:21:45.205Z] \"GET /styles/app.css HTTP/1.1\" 200 2846 \"-\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24\"",
       "id": 1
-    },
-    {
-      "Date": "2018-05-26T00:00:00.000Z",
-      "Catagory": "ENTERTAINMENT",
-      "logs": "The actor gives Dems an ass-kicking for not fighting hard enough against Donald Trump.",
-      "id": 2
-    },
-    {
-      "Date": "2018-05-24T18:30:00.000Z",
-      "Catagory": "POLITICS",
-      "logs": "Roger Stone Pressed For Damaging Emails About Hillary Clinton From WikiLeaks: Report\", \"authors\": \"Mary Papenfuss\", \"link\": \"https://www.huffingtonpost.com/entry/roger-stone-damaging-clinton-emails-wikileaks_us_5b073dc7e4b0802d69c979d7\", \"short_description\": \"Stone's contact with Julian Assange reportedly told him he couldn't ask WikiLeaks favors \\\"every other day.",
-      "id": 3
-    },
-    {
-      "Date": "2018-05-25T00:00:00.000Z",
-      "Catagory": "WEIRD NEWS",
-      "logs": "A Bag Of Wet Socks Is Apparently Living In The White House Press Briefing Room\", \"authors\": \"Jenna Amatulli\", \"link\": \"https://www.huffingtonpost.com/entry/wet-socks-bag-white-house-press-room_us_5b080ceae4b0568a880aaad3\", \"short_description\": \"\\\"The formerly wet bag of socks... has become crusty,\\\" tweeted a reporter who thrice spotted the socks.",
-      "id": 4
-    },
-    {
-      "Date": "2018-05-24T00:00:00.000Z",
-      "Catagory": "SPORTS",
-      "logs": "Jets Chairman Christopher Johnson Won't Fine Players For Anthem Protests\", \"authors\": \"Ron Dicker\", \"link\": \"https://www.huffingtonpost.com/entry/jets-christopher-johnson-wont-fine-players-for-anthem-protests_us_5b069e29e4b05f0fc8453d6f\", \"short_description\": \"\\u201cI never want to put restrictions on the speech of our players.",
-      "id": 5
     },
     {
       "Date": "2024-04-11T18:30:00.000Z",
       "Catagory": "sample_web_logs",
       "logs": "143.33.75.200 - - [2018-08-01T11:15:34.866Z] \"GET /security-analytics HTTP/1.1\" 200 70 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\"",
+      "id": 2
+    },
+    {
+      "Date": "2024-04-23T18:30:00.000Z",
+      "Catagory": "sample_web_logs",
+      "logs": "111.230.171.28 - - [2018-08-28T05:58:43.109Z] \"GET /styles/app.css HTTP/1.1\" 200 5118 \"-\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24\"",
+      "id": 3
+    },
+    {
+      "Date": "2024-04-24T18:30:00.000Z",
+      "Catagory": "sample_web_logs",
+      "logs": "214.182.236.157 - - [2018-08-28T06:10:13.765Z] \"GET /apm-server/apm-server-6.3.2-amd64.deb HTTP/1.1\" 200 8053 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\"",
+      "id": 4
+    },
+    {
+      "Date": "2024-04-24T18:30:00.000Z",
+      "Catagory": "sample_web_logs",
+      "logs": "237.31.111.6 - - [2018-08-28T06:38:24.880Z] \"GET /elasticsearch HTTP/1.1\" 200 2067 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\"",
+      "id": 5
+    },
+    {
+      "Date": "2024-04-21T18:30:00.000Z",
+      "Catagory": "sample_web_logs",
+      "logs": "59.245.12.17 - - [2018-08-28T06:50:16.699Z] \"GET /apm HTTP/1.1\" 404 9160 \"-\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)\"",
       "id": 6
+    },
+    {
+      "Date": "2024-04-22T18:30:00.000Z",
+      "Catagory": "sample_web_logs",
+      "logs": "253.69.5.67 - - [2018-08-28T07:03:24.938Z] \"GET /beats/metricbeat/metricbeat-6.3.2-amd64.deb HTTP/1.1\" 200 9780 \"-\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.50 Safari/534.24\"",
+      "id": 7
+    },
+    {
+      "Date": "2018-05-25T18:30:00.000Z",
+      "Catagory": "CRIME",
+      "logs": "The \"Late Show\" host takes on Michael Cohen and his \"taxi king\" business partner.",
+      "id": 8
+    },
+    {
+      "Date": "2018-05-26T00:00:00.000Z",
+      "Catagory": "ENTERTAINMENT",
+      "logs": "The actor gives Dems an ass-kicking for not fighting hard enough against Donald Trump.",
+      "id": 9
+    },
+    {
+      "Date": "2018-05-24T18:30:00.000Z",
+      "Catagory": "POLITICS",
+      "logs": "Roger Stone Pressed For Damaging Emails About Hillary Clinton From WikiLeaks: Report\", \"authors\": \"Mary Papenfuss\", \"link\": \"https://www.huffingtonpost.com/entry/roger-stone-damaging-clinton-emails-wikileaks_us_5b073dc7e4b0802d69c979d7\", \"short_description\": \"Stone's contact with Julian Assange reportedly told him he couldn't ask WikiLeaks favors \\\"every other day.",
+      "id": 10
+    },
+    {
+      "Date": "2018-05-25T00:00:00.000Z",
+      "Catagory": "WEIRD NEWS",
+      "logs": "A Bag Of Wet Socks Is Apparently Living In The White House Press Briefing Room\", \"authors\": \"Jenna Amatulli\", \"link\": \"https://www.huffingtonpost.com/entry/wet-socks-bag-white-house-press-room_us_5b080ceae4b0568a880aaad3\", \"short_description\": \"\\\"The formerly wet bag of socks... has become crusty,\\\" tweeted a reporter who thrice spotted the socks.",
+      "id": 11
+    },
+    {
+      "Date": "2018-05-24T00:00:00.000Z",
+      "Catagory": "SPORTS",
+      "logs": "Jets Chairman Christopher Johnson Won't Fine Players For Anthem Protests\", \"authors\": \"Ron Dicker\", \"link\": \"https://www.huffingtonpost.com/entry/jets-christopher-johnson-wont-fine-players-for-anthem-protests_us_5b069e29e4b05f0fc8453d6f\", \"short_description\": \"\\u201cI never want to put restrictions on the speech of our players.",
+      "id": 12
     }
   ]
 }
